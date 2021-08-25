@@ -10,9 +10,8 @@ pool:
   Hari's Personal
 
 steps:
-- task: Bash@3
+- task: CmdLine@2
   inputs:
-    targetType: 'inline'
     script: |
-      echo 'Hello world'
-      echo 'Running Azure DevOps Pipeline'
+      echo Write your commands here
+      echo Hello world
