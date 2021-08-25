@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  vmImage: ubuntu-latest
+  Hari's Personal
 
 steps:
 - task: Bash@3
