@@ -27,7 +27,7 @@ class CustomerApplicationTests {
 	}
 
 	@Test
-	void temptest3(String s) {
+	void temptest3() {
 		int hello=1;
 		assertEquals(1, hello);
 	}
