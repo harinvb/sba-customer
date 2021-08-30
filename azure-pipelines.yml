@@ -17,16 +17,12 @@ steps:
     mavenPomFile: 'pom.xml'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
+    allowBrokenSymlinks: false
     javaHomeOption: 'JDKVersion'
     mavenVersionOption: 'Default'
     mavenAuthenticateFeed: false
     effectivePomSkip: false
-    sonarQubeRunAnalysis: true
-    isJacocoCoverageReportXML: true
-    sqMavenPluginVersionChoice: 'latest'
-    checkStyleRunAnalysis: true
-    pmdRunAnalysis: true
-    findBugsRunAnalysis: true
+    sonarQubeRunAnalysis: false
 - task: CopyFiles@2
   inputs:
     SourceFolder: '$(Build.Repository.LocalPath)'
