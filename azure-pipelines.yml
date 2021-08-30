@@ -2,7 +2,7 @@ trigger:
 - master
 
 pool:
-  Hari's Personal
+  mine
 
 steps:
 - task: CmdLine@2
