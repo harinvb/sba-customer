@@ -1,5 +1,7 @@
 package org.mindtree.customer.service.implementation;
 
+import java.util.List;
+
 import org.mindtree.customer.dao.CustomerRepository;
 import org.mindtree.customer.entity.Customer;
 import org.mindtree.customer.exception.ResourceNotFoundException;
@@ -15,16 +17,18 @@ public class CustomerServiceImpl implements CustomerService {
 
 	@Override
 	public Customer getCustomerById(int id) {
-		Customer foundCustomer = customerRepository
-									.findById(id)
-									.orElseThrow(()->new ResourceNotFoundException("Customer with id : "+ id+" Not Found"));
-		return foundCustomer;
+		return customerRepository.findById(id).orElseThrow(()->new ResourceNotFoundException("Customer with id : "+ id+" Not Found"));
+		 
 	}
 
 	@Override
-	public Customer addCustomer(Customer customer) {
-		Customer savedCustomer = customerRepository.save(customer);
-		return savedCustomer;
+	public Customer addCustomer(Customer customer) { 
+		return customerRepository.save(customer);
+	}
+
+	@Override
+	public List<Customer> getAllCustomers() {
+		return customerRepository.findAll();
 	}
 	
 
