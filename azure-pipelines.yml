@@ -2,7 +2,7 @@ trigger:
 - master
 
 pool:
-  mine
+  Azure Pipelines
 
 steps:
 - task: CmdLine@2
