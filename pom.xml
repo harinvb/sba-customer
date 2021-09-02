@@ -22,7 +22,7 @@
 	<scm>
 		<connection>scm:git:git@github.com:harinvb/sba_customer.git</connection>
 		<developerConnection>scm:git:git@github.com:harinvb/sba_customer.git</developerConnection>
-		<url>git@github.com:harinvb/sba_customer.git</url>
+		<url>https://github.com/harinvb/sba_customer.git</url>
 		<tag>v1.0.1</tag>
 	</scm>
 	<groupId>org.mindtree</groupId>
