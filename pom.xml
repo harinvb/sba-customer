@@ -22,7 +22,7 @@
 	<scm>
 		<connection>scm:git:git@github.com:harinvb/sba_customer.git</connection>
 		<developerConnection>scm:git:git@github.com:harinvb/sba_customer.git</developerConnection>
-		<url>https://git@github.com:harinvb/sba_customer.git</url>
+		<url>git@github.com:harinvb/sba_customer.git</url>
 		<tag>HEAD</tag>
 	</scm>
 	<groupId>org.mindtree</groupId>
@@ -82,9 +82,10 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-release-plugin</artifactId>
+				<version>2.5.3</version>
 				<configuration>
 					<tagNameFormat>v@{project.version}</tagNameFormat>
-					<autoVersionSubModule>true</autoVersionSubModule>
+					<autoVersionSubmodules>true</autoVersionSubmodules>
 				</configuration>
 			</plugin>
 		</plugins>
