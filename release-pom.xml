@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.mindtree</groupId>
   <artifactId>customer</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <name>customer</name>
   <description>SBA project</description>
   <url>https://spring.io/projects/spring-boot/customer</url>
@@ -25,6 +25,7 @@
   <scm>
     <connection>scm:git:git@github.com:harinvb/sba_customer.git</connection>
     <developerConnection>scm:git:git@github.com:harinvb/sba_customer.git</developerConnection>
+    <tag>v1.0.0</tag>
     <url>git@github.com:harinvb/sba_customer.git</url>
   </scm>
   <distributionManagement>
@@ -920,7 +921,7 @@
   </pluginRepositories>
   <build>
     <sourceDirectory>src/main/java</sourceDirectory>
-    <scriptSourceDirectory>C:\WorkSpace\Orchard\SBA-Customer\src\main\scripts</scriptSourceDirectory>
+    <scriptSourceDirectory>c:\WorkSpace\Orchard\SBA-Customer\src\main\scripts</scriptSourceDirectory>
     <testSourceDirectory>src/test/java</testSourceDirectory>
     <outputDirectory>target/classes</outputDirectory>
     <testOutputDirectory>target/test-classes</testOutputDirectory>
@@ -949,7 +950,7 @@
       </testResource>
     </testResources>
     <directory>target</directory>
-    <finalName>customer-1.0.0</finalName>
+    <finalName>customer-1.0.1</finalName>
     <plugins>
       <plugin>
         <groupId>org.springframework.boot</groupId>
