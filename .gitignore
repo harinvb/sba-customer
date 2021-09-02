@@ -33,3 +33,5 @@ build/
 ### VS Code ###
 .vscode/
 console.log.2021-09-01.0.gz
+release.properties
+release-pom.xml
