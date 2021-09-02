@@ -23,11 +23,11 @@
 		<connection>scm:git:git@github.com:harinvb/sba_customer.git</connection>
 		<developerConnection>scm:git:git@github.com:harinvb/sba_customer.git</developerConnection>
 		<url>https://github.com/harinvb/sba_customer.git</url>
-		<tag>v1.0.2</tag>
+		<tag>v1.0.1</tag>
 	</scm>
 	<groupId>org.mindtree</groupId>
 	<artifactId>customer</artifactId>
-	<version>1.0.2</version>
+	<version>1.0.3-SNAPSHOT</version>
 	<name>customer</name>
 	<description>SBA project</description>
 	<properties>
