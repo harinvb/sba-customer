@@ -29,6 +29,7 @@
 	<artifactId>customer</artifactId>
 	<version>1.0.3-SNAPSHOT</version>
 	<name>customer</name>
+	<packaging>war</packaging>
 	<description>SBA project</description>
 	<properties>
 		<java.version>11</java.version>
